@@ -1,0 +1,52 @@
+.service {
+  color: #1e1e28;
+  margin-top: 30px;
+
+  .head_title {
+    font-size: 17px;
+    font-weight: 600;
+  }
+
+  .column_3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 40px;
+    margin-top: 20px;
+
+    .service_card {
+      padding: 30px;
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      gap: 17px;
+      background-color: white;
+      box-shadow: 0 3px 3px 0 rgba(15, 15, 20, 0.055);
+
+      .title {
+        font-weight: 600;
+        font-size: 15px;
+        margin-bottom: 15px;
+      }
+      .details {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .home {
+    .column_3 {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+}
+@media screen and (max-width: 600px) {
+  .home {
+    .column_3 {
+      grid-template-columns: 1fr;
+    }
+  }
+}
