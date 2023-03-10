@@ -1,54 +1,54 @@
 .header {
-  .slider {
-    max-height: 600px;
-    width: 100%;
-    padding: 70px 60px;
-    background-image: url(../../Assets/bg.jpg);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    .slider {
+        max-height: 600px;
+        width: 100%;
+        padding: 70px 60px;
+        background-image: url(../../Assets/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
 
-    h4 {
-      font-size: 70px;
-      font-weight: 800;
-      line-height: 1;
-      color: white;
+        h4 {
+            font-size: 70px;
+            font-weight: 800;
+            line-height: 1;
+            color: white;
+        }
+
+        .title {
+            margin: 25px 0;
+            font-weight: 500;
+            letter-spacing: 2px;
+            font-size: 14px;
+            color: white;
+        }
+
+        .explore_btn {
+            padding: 12px 35px;
+            background-color: #f44336;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+            font-size: 14px;
+            border: none;
+            font-weight: 600;
+            transition: 0.5s ease;
+            cursor: pointer;
+            color: white;
+            text-decoration: none;
+
+            &:hover {
+                letter-spacing: 3px;
+            }
+        }
     }
-
-    .title {
-      margin: 25px 0;
-      font-weight: 500;
-      letter-spacing: 2px;
-      font-size: 14px;
-      color: white;
-    }
-
-    .explore_btn {
-      padding: 12px 35px;
-      background-color: #f44336;
-      text-transform: capitalize;
-      letter-spacing: 1px;
-      font-size: 14px;
-      border: none;
-      font-weight: 600;
-      transition: 0.5s ease;
-      cursor: pointer;
-      color: white;
-      text-decoration: none;
-
-      &:hover {
-        letter-spacing: 3px;
-      }
-    }
-  }
 }
 
 @media screen and (max-width: 600px) {
-  .header {
-    .slider {
-      h4 {
-        font-size: 50px;
-      }
+    .header {
+        .slider {
+            h4 {
+                font-size: 50px;
+            }
+        }
     }
-  }
 }

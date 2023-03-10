@@ -1,31 +1,31 @@
 .projects {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  color: #1e1e28;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #1e1e28;
 
-  .head_title {
-    font-size: 17px;
-    font-weight: 600;
-  }
+    .head_title {
+        font-size: 17px;
+        font-weight: 600;
+    }
 
-  .column_31 {
-    column-count: 3;
-    gap: 40px;
-    margin-top: 20px;
-  }
+    .column_31 {
+        column-count: 3;
+        gap: 40px;
+        margin-top: 20px;
+    }
 }
 
 @media screen and (max-width: 1200px) {
-  .home {
-    .column_31 {
-      column-count: 2;
+    .home {
+        .column_31 {
+            column-count: 2;
+        }
     }
-  }
 }
 @media screen and (max-width: 600px) {
-  .home {
-    .column_31 {
-      column-count: 1;
+    .home {
+        .column_31 {
+            column-count: 1;
+        }
     }
-  }
 }

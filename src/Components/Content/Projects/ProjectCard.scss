@@ -1,68 +1,68 @@
 .project_card {
-  position: relative;
-  overflow: hidden;
-  cursor: pointer;
-  margin-bottom: 30px;
-
-  .pro_image {
+    position: relative;
     overflow: hidden;
-    background: white;
-    margin-bottom: -10px;
-    filter: brightness(85%) blur(0);
-    transition: 0.5s all ease;
+    cursor: pointer;
+    margin-bottom: 30px;
 
-    img {
-      transition: 0.5s all ease;
-      width: 105%;
-    }
-  }
-
-  .details {
-    background: white;
-    position: absolute;
-    height: 160px;
-    transition: 0.5s all ease;
-    bottom: -160px;
-    box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
-    padding: 20px 30px;
-
-    .desc {
-      font-weight: 300;
-      font-size: 14px;
-      margin-top: 5px;
-    }
-    .live_link {
-      font-weight: 600;
-      font-size: 13px;
-      text-transform: uppercase;
-      color: #f44336;
-      text-decoration: none;
-      background-color: transparent;
-      border: none;
-      letter-spacing: 2px;
-      cursor: pointer;
-
-      i {
-        transition: 0.5s;
-      }
-
-      &:hover {
-        i {
-          margin-left: 10px;
-        }
-      }
-    }
-  }
-
-  &:hover {
-    .details {
-      bottom: 0;
-    }
     .pro_image {
-      filter: brightness(100%) blur(0);
-      img {
-        transform: scale(1.1);
-      }
+        overflow: hidden;
+        background: white;
+        margin-bottom: -10px;
+        filter: brightness(85%) blur(0);
+        transition: 0.5s all ease;
+
+        img {
+            transition: 0.5s all ease;
+            width: 105%;
+        }
     }
-  }
+
+    .details {
+        background: white;
+        position: absolute;
+        height: 160px;
+        transition: 0.5s all ease;
+        bottom: -160px;
+        box-shadow: 0 3px 8px 0 rgb(15 15 20 / 20%);
+        padding: 20px 30px;
+
+        .desc {
+            font-weight: 300;
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        .live_link {
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            color: #f44336;
+            text-decoration: none;
+            background-color: transparent;
+            border: none;
+            letter-spacing: 2px;
+            cursor: pointer;
+
+            i {
+                transition: 0.5s;
+            }
+
+            &:hover {
+                i {
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+
+    &:hover {
+        .details {
+            bottom: 0;
+        }
+        .pro_image {
+            filter: brightness(100%) blur(0);
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
 }

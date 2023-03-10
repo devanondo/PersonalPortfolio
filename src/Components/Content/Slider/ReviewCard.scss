@@ -1,50 +1,50 @@
 .review_card {
-  margin-top: 50px;
-  padding: 30px;
-  display: flex;
-  flex-direction: column;
-  gap: 17px;
-  background-color: white;
-  box-shadow: 0 3px 3px 0 rgba(15, 15, 20, 0.055);
-  position: relative;
-  .title {
-    font-weight: 600;
-    font-size: 15px;
-  }
-  .top {
-    .author_image {
-      width: 80px;
-      height: 80px;
-      border-radius: 50%;
-      overflow: hidden;
-      top: -40px;
-      left: 30px;
-      position: absolute;
-      border: 5px solid #e0e0e6;
-
-      img {
-        width: 100%;
-      }
-    }
-    .title {
-      margin-top: 20px;
-      margin-bottom: 0;
-    }
-    .sub_title {
-      font-weight: 300;
-      font-size: 13px;
-      font-style: italic;
-    }
-  }
-  .details {
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 1.7;
-  }
-  .rating {
+    margin-top: 50px;
+    padding: 30px;
     display: flex;
-    gap: 10px;
-    font-size: 14px;
-    color: red;
-  }
+    flex-direction: column;
+    gap: 17px;
+    background-color: white;
+    box-shadow: 0 3px 3px 0 rgba(15, 15, 20, 0.055);
+    position: relative;
+    .title {
+        font-weight: 600;
+        font-size: 15px;
+    }
+    .top {
+        .author_image {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            overflow: hidden;
+            top: -40px;
+            left: 30px;
+            position: absolute;
+            border: 5px solid #e0e0e6;
+
+            img {
+                width: 100%;
+            }
+        }
+        .title {
+            margin-top: 20px;
+            margin-bottom: 0;
+        }
+        .sub_title {
+            font-weight: 300;
+            font-size: 13px;
+            font-style: italic;
+        }
+    }
+    .details {
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .rating {
+        display: flex;
+        gap: 10px;
+        font-size: 14px;
+        color: red;
+    }
 }
