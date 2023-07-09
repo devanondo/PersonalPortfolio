@@ -47,6 +47,12 @@ const allTools = [
         title: 'React Js, Node Js',
     },
     {
+        title: 'Rredux, Next Js',
+    },
+    {
+        title: 'TypeSccirpt, MongoDB',
+    },
+    {
         title: 'Express, Rest API, JWT',
     },
     {
@@ -60,6 +66,9 @@ const allTools = [
     },
     {
         title: 'Firebase, Heroku',
+    },
+    {
+        title: 'Vercel, Render, Cyclic',
     },
     {
         title: 'Netlify, Jira, Postman',

@@ -6,7 +6,7 @@ const education = [
         title: 'Bachelor Science in CSE',
         university: 'Dhaka International University',
         desc: 'Dhaka International University or DIU is a non-government institution in Dhaka, Bangladesh. The university was established on 7 April 1995 by the Private University Act 1992.',
-        durations: 'Sep-2021 to Aug-2022',
+        durations: 'Sep-2021 to Present',
         link: 'https://diu.ac/',
     },
     {
@@ -27,28 +27,39 @@ const education = [
 
 const work = [
     {
+        title: 'Fiverr',
+        university: 'MERN-Stack Web Developer(Freelancer)',
+        desc: 'Design and Development Two Full-Stack Project, using React Js, Node Js, MongoD, Express and Redux. As per Client instruction to Project tracked, manage and deliver the project throw team. Reporting to the team manager.',
+        durations: '2021 to Present',
+        link: 'https://www.fiverr.com/anondo19',
+    },
+    {
         title: 'Solutya Pvt. Ltd.',
         university: 'MERN-Stack Web Developer',
         desc: 'Design and Development Two Full-Stack Project, using React Js, Node Js, MongoD, Express and Redux Toolkit. Develped HTML template for Themeforest. Planned, tracked, manage and deliver the project throw team. Reporting every day to the team manager.',
-        durations: 'Nov-2022 to Present',
+        durations: 'Nov-2022 to Mar-2023',
+        link: 'https://solutya.com/',
     },
     {
         title: 'DEV ZeroOne ',
         university: 'Web Developer',
         desc: 'Design and Implement business strategies, plans and procedures. Oversee daily operations of the company and the work other employees. Establish policies that promote company culture and vision',
         durations: 'Jan-2022 to Present',
+        link: 'https://www.facebook.com/devZeroOne/about',
     },
     {
         title: 'Pacific Jeans Limited',
         university: 'Site Engineer',
         desc: 'Collaborated with the project manager to maintain effective working relationships with contractors, engineers, architects, and staff to achieve deadlines. Established accurate records, prepared daily reports, and maintain a high level of quality.',
         durations: 'Aug-2018 to Nov-2021',
+        link: 'https://www.pacificjeans.com/',
     },
     {
         title: 'IIML (Bangladesh)',
         university: 'Data Entry Operator',
         desc: 'Complete all assigned data entry request and task within required timeframes while maintaining a high-level of quality.Maintain good accuracy rate by assessing client and other documents.',
         durations: 'May-2017 to Nov-2017',
+        link: 'https://www.iimdirect.com/',
     },
 ];
 
@@ -94,8 +105,8 @@ export default function Qualification() {
                             <div className="details">{item.desc}</div>
 
                             <div className="order_btn">
-                                <a href="#contact">
-                                    Order Now
+                                <a href={item.link} target="_blank" rel="noreferrer">
+                                    View Website
                                     <span>
                                         <i class="fa-solid fa-angle-right"></i>
                                     </span>
