@@ -1,8 +1,8 @@
 export const data = [
     {
-        title: 'TUDO full-stack ecommerce development',
+        title: 'ecocryp full-stack multivendor ecommerce',
         id: '1542ADR845',
-        desc: "Full-Stack Ecommerce website. It's focused on ecommerce all functionality.",
+        desc: "Full-Stack multivendor Ecommerce website. It's focused on ecommerce all functionality.",
         imageUrl:
             'https://res.cloudinary.com/dhcqftzu3/image/upload/v1691429254/Screenshot_99_tloljx.png',
         url: 'https://res.cloudinary.com/dhcqftzu3/image/upload/v1691429254/Screenshot_99_tloljx.png',
