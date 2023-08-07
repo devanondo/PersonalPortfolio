@@ -48,6 +48,17 @@ export default function ProjectDetails() {
                     >
                         Visit Website <i class="fa-solid fa-angle-right"></i>
                     </a>
+                    <br />
+                    {project.github && (
+                        <a
+                            href={project.github && project.github}
+                            target="_blank"
+                            className="live_link"
+                            rel="noreferrer"
+                        >
+                            GITHUB <i class="fa-solid fa-angle-right"></i>
+                        </a>
+                    )}
                 </div>
                 <div className="tools_used">
                     {project.tools.map((item, index) => (

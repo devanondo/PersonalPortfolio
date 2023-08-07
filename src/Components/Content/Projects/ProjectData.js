@@ -1,5 +1,32 @@
 export const data = [
     {
+        title: 'TUDO full-stack ecommerce development',
+        id: '1542ADR845',
+        desc: "Full-Stack Ecommerce website. It's focused on ecommerce all functionality.",
+        imageUrl:
+            'https://res.cloudinary.com/dhcqftzu3/image/upload/v1691429254/Screenshot_99_tloljx.png',
+        url: 'https://res.cloudinary.com/dhcqftzu3/image/upload/v1691429254/Screenshot_99_tloljx.png',
+        live_url: 'https://sunny-speculoos-85d0ef.netlify.app/',
+        github: 'https://github.com/devanondo/multi_ecom_admin',
+        description:
+            "Step into a world where technology and shopping converge, where every click and scroll brings you closer to an experience that's as personal as it is innovative. As I embarked on the journey to create my own multivendor ecommerce platform, I was fueled by a passion for web development and a vision of redefining the way we shop online.\n\nIn this adventure, 'JavaScript' and 'TypeScript' became my allies, allowing me to breathe life into every pixel of the user interface. With 'ReactJS' at my fingertips, I sculpted a virtual storefront that adapts and responds just like a brick-and-mortar shop. And thanks to 'React-router-dom', I paved a virtual path for shoppers to explore an expansive world of products with a few simple clicks.\n\nThe aesthetic allure of the platform was a priority, which led me to 'Ant Design' and 'SCSS'. 'Ant Design' provided a palette of elegant components, while 'SCSS' let me infuse every pixel with personality and flair. Each element resonates with the intention to create an immersive experience that captures the essence of shopping joy.\n\nBut beneath the captivating exterior lies the heart of the operation – the backend. 'Node.js' and 'Express.js' became the architects of functionality, weaving intricate threads that connect user interactions to the vast 'MongoDB' database. It's here that products, user profiles, and orders come to life, ensuring a seamless and enjoyable shopping journey.\n\nSecurity was paramount in my design philosophy, and 'JWT' and 'Cookie' became my allies in safeguarding user data and sessions. And when it came to payments, 'Stripe' stood as a fortress of secure transactions, reassuring both shoppers and vendors that their financial data is in safe hands.\n\nBeyond the code, 'Postman' was my trusted companion, rigorously testing APIs to ensure they perform flawlessly. Every line of code written, every bug squashed, and every test passed was a step towards creating a platform that's as reliable as it is beautiful.\n\nFrom a personal perspective, this project isn't just lines of code; it's a manifestation of my dedication and creativity. It's a reflection of my passion for crafting digital experiences that resonate with users on a personal level. Whether you're a shopper seeking the perfect find or a vendor looking to showcase your creations, my multivendor ecommerce platform welcomes you into a realm where technology and personal connection harmonize in perfect unity. This project is my labor of love, and I'm excited to share it with the world. Welcome to a new era of online shopping – welcome to my creation.",
+        tools: [
+            'JavaScript',
+            'Typescript',
+            'ReactJs',
+            'Node Js',
+            'MondoDB',
+            'React-router-dom',
+            'Ant Design',
+            'SCSS',
+            'Express Js',
+            'Postman',
+            'JWT',
+            'Cookie',
+            'Stripe',
+        ],
+    },
+    {
         title: 'Radd Portfolio Website',
         id: '1542ADR841',
         desc: 'Radd is Portfolio website which is build by React js.',
@@ -9,27 +36,6 @@ export const data = [
         description:
             'Radd is Portfolio single page website which is build by React js. In this website implemented dark and light mode option.',
         tools: ['JavaScript', 'XML', 'CSS', 'SASS', 'Swiper js', 'React Js'],
-    },
-    {
-        title: 'Aquasoft Blog website',
-        id: '1542ADR842',
-        desc: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit.',
-        imageUrl: 'https://i.ibb.co/P4KrxhR/blog.png',
-        url: 'https://i.ibb.co/8Y7XBZw/Realstate1.jpg',
-        live_url: 'https://floating-reaches-03207.herokuapp.com/',
-        description: 'Aquasoft is Blog website which is build for use EJS Template engine',
-        tools: ['JavaScript', 'ReactJs', 'Node Js', 'MondoDB', 'React-router-dom'],
-    },
-    {
-        title: 'TUDO Real estate full-stack development',
-        id: '1542ADR843',
-        desc: 'Real estate buying and selling website frontend development',
-        imageUrl: 'https://i.ibb.co/3kVZhZ6/realestate.png',
-        url: 'https://i.ibb.co/8Y7XBZw/Realstate1.jpg',
-        live_url: 'https://tudo-realestate.netlify.app/',
-        description:
-            'TUDO-Real estate is a property buy sell full-stack web-application which build by React Js and building duration (15-Nov-2021 to 23-Dec-2021). Organized an attractive responsive user interface implemented by React Js.      • Utilize Property details page and user place order from this section.      • Constructed User panel and with dynamic data loaded from MongoDB server',
-        tools: ['JavaScript', 'ReactJs', 'Node Js', 'MondoDB', 'React-router-dom'],
     },
     {
         title: 'Lookouts ecommerce frontend development',
@@ -57,8 +63,8 @@ export const data = [
         desc: "Full-Stack Ecommerce website. It's focused on ecommerce all functionality.",
         imageUrl: 'https://i.ibb.co/xHZcppg/ec.png',
         url: 'https://i.ibb.co/St7g4RV/ec.png',
-        live_url: 'https://tudo-ecommerce-project.herokuapp.com/',
-
+        live_url: 'https://todo-shop.netlify.app/',
+        github: 'https://github.com/devanondo/tudo-e-fe',
         description:
             'TUDO-eCommerce is a full stack ecommerce application which build by React Js and building duration (29-Jan-2022 to 03-Mar-2022). Implemented beautiful users interface use SCSS with external styling library and used MaterialUI component to manage dashboard easily. This application contains many types of functionality such as User account (user can register and login here), user can place an order with follow some steps. Here install stripe payment gateway for credit-card. After placed order user can see this order status this order is accepted or on the way or delivered. Note after placed order user can send a request to cancel order. A user can change their email, password, avatar, etc. User can give review on a product. Build API authentication using encrypted methodology with employed privet route user and admin. Without login user cannot enter their profile route.   Developed admin panel with CRUD operation with eCommerce full functionality like admin can manage all user, all order, all products and all reviews, etc. Admin can see their earnings, stocked and stock out product list, etc. ',
         tools: [
